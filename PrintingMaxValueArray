@@ -1,0 +1,19 @@
+package com.company;
+//배열의 최대값 프린트하기
+
+public class Main {
+
+    public static void main(String[] args) {
+        int [] list_max = {2,4,398,287,1,349,24,10,289,50};
+        int number = list_max[0];
+
+
+        for (int i=1; i<list_max.length; i++){
+            if (number<list_max[i])
+                number = list_max[i];
+        }
+            System.out.println(number);
+
+
+    }
+}
